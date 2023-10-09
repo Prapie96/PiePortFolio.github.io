@@ -204,7 +204,80 @@ button:hover{
     border-radius: 50px;
     object-fit: cover;
 }
+/* Project Css Start*/
+#h1Project{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+.ContrainerProject2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.ContentProject2 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(27, 24, 24, 0.918);
+    border-radius: 50px;
+    padding: 50px;
+}
+.ContentProject2 img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.AboutGame {
+    color: azure;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.AboutGame h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.AboutGame p{
+    font-size: 20px;
+}
+.Tutorial {
+    margin-top: 50px;
+    color: azure;
+    background-color: rgba(27, 24, 24, 0.918);
+    text-align: center;
+}
+
+.Tutorial h1 {
+    font-size: 40px;
+}
+
+.Tutorial ol {
+    list-style: decimal;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.Tutorial li {
+    margin-bottom: 10px;
+    
+}
+.Dowload{
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+}
+.Dowload img{
+    width: 700px;
+    
+}
+/* Project Css End*/
 @media screen and (max-width: 768px) {
     .MenuContrainer{
         max-width: 768;
