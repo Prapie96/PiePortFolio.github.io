@@ -1,0 +1,16 @@
+body{
+    background-image: url(Picture/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myForm{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+}
+#myLogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 40px;
+}

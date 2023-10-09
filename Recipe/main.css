@@ -1,0 +1,64 @@
+body{
+    background-image: url(pic/1005330_OIUF350.jpg);
+    background-size: cover;
+}
+.DecorateBlank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContentAll{
+    text-align: center;
+    height: 100;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#TitileNameMenu{
+    text-align: center;
+    background-color: #D4916A;
+}
+#PicMenu{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    
+}
+.PictureAll{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    object-fit: cover;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+h1{
+    text-align: left;
+}
+ a{
+    font-size: 25px;
+    color: whitesmoke;
+    /*
+    background: linear-gradient( #9365ff,#6f3bff);*/
+    background-color: rgba(155, 69, 29, 0.6); /* Semi-transparent white background */
+    text-decoration: none;
+}
+.ResultFoodimg{
+   width: 25%;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}   
+

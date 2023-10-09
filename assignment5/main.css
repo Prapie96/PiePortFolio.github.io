@@ -1,0 +1,34 @@
+body{
+    background-image: url(Pic/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.SetContrainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+.Contrainer{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+}
+textarea{
+    width: 250px;
+}
+#Textbumble{
+    height: 100px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 250px;
+}
+#PedWalkGif
+{
+    width: 250px;
+    height:  300px;
+}
+
