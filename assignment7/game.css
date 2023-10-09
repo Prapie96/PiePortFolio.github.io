@@ -1,3 +1,8 @@
+body{
+    background-image: url(Pics/—Pngtree—space\ background\ banner_156838.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #container {
 	margin-top: 30px;
     display: flex;
@@ -28,4 +33,7 @@
 
 .magenta{
     background-color: magenta; 
+}
+fieldset{
+    color: azure;
 }

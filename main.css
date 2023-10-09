@@ -153,8 +153,21 @@ button{
 button:hover{
     color:  #fdff80;
 }
+.ContrainerProject{
+    margin-top: 200px;
+}
+.ContentProject{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 24, 24, 0.918);
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
 .ContrainerContact{
-    margin-top: 400px;
+    color: azure;
+    margin-top: 350px;
     padding-left: 50px;
     background-color: rgba(27, 24, 24, 0.918);
     border-radius: 50px;
@@ -166,6 +179,30 @@ button:hover{
     display: flex;
     justify-content: space-around;
     font-size: 150px;
+}
+.ContrainerRef{
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50px;
+    color: azure;
+}
+.RefGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.RefItem {
+    text-align: center;
+}
+
+.RefPic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -197,7 +234,6 @@ button:hover{
     .Intro h1 {
         font-size: 60px; 
     }
-
     #Chayen {
         width: 200px; 
         margin-left: 75px; 
@@ -213,7 +249,7 @@ button:hover{
 
     .AboutMe h2 {
         margin-left: 20px; 
-        font-size: 16px; /
+        font-size: 16px; 
     }
 
     .AboutMe ul {
@@ -229,6 +265,7 @@ button:hover{
 
     .PortGrid {
         grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
     .PortPic {
         width: 300px;
@@ -239,9 +276,7 @@ button:hover{
         height: 40px;
         font-size: 14px; 
     }
-
     .ContrainerContact {
-        
         margin-top: 200px; 
         padding-left: 20px;
     }
@@ -253,6 +288,8 @@ button:hover{
     .ContrainerIntro{
         display: block;
     }
-    
+    .RefGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
