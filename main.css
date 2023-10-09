@@ -178,7 +178,7 @@ button:hover{
 .SocialIcon{
     display: flex;
     justify-content: space-around;
-    font-size: 150px;
+    font-size: 140px;
 }
 .ContrainerRef{
     margin-top: 150px;
@@ -363,6 +363,26 @@ button:hover{
     }
     .RefGrid {
         grid-template-columns: repeat(1, 1fr);
+    }
+    /*Project html*/
+    .ContentProject2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContentProject2 img {
+        order: 1;
+        margin: 10px;
+    }
+
+    .AboutGame {
+        order: 2;
+        text-align: center;
+        margin: 20px;
+    }
+    .Dowload img{
+        width: 500px;
+        
     }
 }
 
