@@ -45,7 +45,7 @@ function goToProjectPage(){
     window.location.replace("http://127.0.0.1:5501/Project.html");
 }
 function goToBackPage() {
-    window.location.href = "http://127.0.0.1:5501/PortFolio.html";
+    window.location.href = "http://127.0.0.1:5501/Index.html";
 }
 function goToRefBG() {
     window.open("https://img.freepik.com/free-vector/halftone-background-with-waves_23-2148907690.jpg?w=1380&t=st=1696874238~exp=1696874838~hmac=317837af9b57389d176f2fe10ca40f4dec4e239a0cc9604888119dc65d5f9179");
